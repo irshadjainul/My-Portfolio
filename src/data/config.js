@@ -10,7 +10,7 @@ export const config = {
   social: {
     github: "https://github.com/irshadjainul",
     linkedin: "https://linkedin.com/in/irshadjainul",
-    twitter: "twitter.com](https://twitter.com/theirshadjainul",
+    twitter: "https://twitter.com/theirshadjainul",
     whatsapp: "https://wa.me/6202394002",
   },
 

@@ -6,11 +6,11 @@ export const projects = [
       "An AI-powered job matching platform that analyzes resumes against job descriptions, calculates match scores, and provides personalized career improvement recommendations.",
     description:
       "An intelligent career assistance platform that uses AI to compare a user's resume with a job description and determine how well they match. The application generates a compatibility score, identifies skill gaps, suggests improvements, provides a personalized learning roadmap, and can automatically generate an optimized resume tailored to the target role. Designed to help job seekers improve their chances of landing interviews through data-driven insights and AI-powered recommendations.",
-    image: "../../src/projectsImage/ai-job-matcher/cover.png",
+    image: "/projects/ai-job-matcher/cover.png",
     screenshots: [
-      "../../src/projectsImage/ai-job-matcher/screenshot1.png",
-      "../../src/projectsImage/ai-job-matcher/screenshot2.png",
-      "../../src/projectsImage/ai-job-matcher/screenshot3.png",
+      "/projects/ai-job-matcher/screenshot1.png",
+      "/projects/ai-job-matcher/screenshot2.png",
+      "/projects/ai-job-matcher/screenshot3.png",
     ],
     technologies: [
       "MongoDB",
@@ -44,10 +44,10 @@ export const projects = [
       "A full-stack podcast platform where users can create, manage, and listen to podcasts with category-based discovery and seamless audio streaming.",
     description:
       "A modern podcast streaming and management application built using the MERN stack, Zustand, and Tailwind CSS. Users can create accounts, upload and manage their podcasts, and explore content across different categories. The platform provides a smooth listening experience with online audio streaming, intuitive navigation, and a fully responsive design. Zustand is used for efficient state management, while Tailwind CSS ensures a clean and mobile-friendly user interface.",
-    image: "../../src/projectsImage/pod-caster/cover.png",
+    image: "/projects/pod-caster/cover.png",
     screenshots: [
-      "../../src/projectsImage/pod-caster/screenshot1.png",
-      "../../src/projectsImage/pod-caster/screenshot2.png",
+      "/projects/pod-caster/screenshot1.png",
+      "/projects/pod-caster/screenshot2.png",
     ],
     technologies: [
       "MongoDB",
@@ -79,11 +79,11 @@ export const projects = [
       "An AI-powered code reviewer that analyzes source code and provides instant feedback, suggestions, and improvements using the Gemini API.",
     description:
       "An intelligent code review application built with React, Tailwind CSS, and Express.js that leverages the Gemini API to analyze code and generate detailed feedback. Users can submit code snippets and receive AI-powered suggestions on code quality, best practices, potential bugs, performance improvements, and readability enhancements. The application features a clean interface, fast processing, and real-time review generation, helping developers write better and more maintainable code.",
-    image: "../../src/projectsImage/ai-code-reviewer/cover.png",
+    image: "/projects/ai-code-reviewer/cover.png",
     screenshots: [
-      "../../src/projectsImage/ai-code-reviewer/screenshot1.png",
-      "../../src/projectsImage/ai-code-reviewer/screenshot2.png",
-      "../../src/projectsImage/ai-code-reviewer/screenshot3.png",
+      "/projects/ai-code-reviewer/screenshot1.png",
+      "/projects/ai-code-reviewer/screenshot2.png",
+      "/projects/ai-code-reviewer/screenshot3.png",
     ],
     technologies: ["React.js", "Tailwind CSS", "Express.js", "Gemini API"],
     features: [
@@ -107,10 +107,10 @@ export const projects = [
       "A personal portfolio website that showcases my projects, skills, experience, and journey as a full-stack developer.",
     description:
       "A modern and responsive portfolio website designed to highlight my technical skills, projects, and professional background. Built with a focus on performance and user experience, the portfolio provides visitors with an overview of my work, featured projects, technologies, and contact information. It serves as a central hub to demonstrate my development expertise and creative problem-solving abilities.",
-    image: "../../src/projectsImage/portfolio/cover.png",
+    image: "/projects/portfolio/cover.png",
     screenshots: [
-      "../../src/projectsImage/portfolio/screenshot1.png",
-      "../../src/projectsImage/portfolio/screenshot2.png",
+      "/projects/portfolio/screenshot1.png",
+      "/projects/portfolio/screenshot2.png",
     ],
     technologies: ["React", "Tailwind CSS", "Email.js", "Vite"],
     features: [
@@ -133,10 +133,10 @@ export const projects = [
       "A React-based dice guessing game where players earn or lose points by predicting dice rolls.",
     description:
       "An interactive dice game where players choose a number from 1 to 6 and roll the dice to test their luck. Built with React, Tailwind CSS, and Zustand, it features real-time score tracking, responsive design, and efficient state management.",
-    image: "../../src/projectsImage/dice-game/cover.png",
+    image: "/projects/dice-game/cover.png",
     screenshots: [
-      "../../src/projectsImage/dice-game/screenshot1.png",
-      "../../src/projectsImage/dice-game/screenshot2.png",
+      "/projects/dice-game/screenshot1.png",
+      "/projects/dice-game/screenshot2.png",
     ],
     technologies: ["React", "Tailwind CSS", "zustand", "JavaScript", "Vite"],
     features: [
@@ -158,11 +158,11 @@ export const projects = [
       "A modern real estate landing page built with React and Tailwind CSS, featuring property showcases and a contact form powered by Web3Forms.",
     description:
       "A responsive real estate landing page designed to showcase properties, highlight services, and generate leads. Built with React and Tailwind CSS, it offers a modern user interface, smooth navigation, and an engaging user experience. The contact form is integrated with Web3Forms, enabling visitors to send inquiries directly without requiring a custom backend.",
-    image: "../../src/projectsImage/real-estate/cover.png",
+    image: "/projects/real-estate/cover.png",
     screenshots: [
-      "../../src/projectsImage/real-estate/screenshot1.png",
-      "../../src/projectsImage/real-estate/screenshot2.png",
-      "../../src/projectsImage/real-estate/screenshot3.png",
+      "/projects/real-estate/screenshot1.png",
+      "/projects/real-estate/screenshot2.png",
+      "/projects/real-estate/screenshot3.png",
     ],
     technologies: ["React", "Tailwind CSS", "Zustand", "Web3forms"],
     features: [
@@ -185,8 +185,8 @@ export const projects = [
       "A classic Rock Paper Scissors game where users compete against the computer, with real-time score tracking and instant game results.",
     description:
       "An interactive Rock Paper Scissors game built with HTML, CSS, and JavaScript. Players choose between rock, paper, or scissors, while the computer generates a random choice. The game automatically determines the winner, updates scores in real time, and displays the result after each round. It provides a fun and engaging experience while demonstrating core JavaScript concepts such as event handling, conditional logic, random number generation, and DOM manipulation.",
-    image: "../../src/projectsImage/rock-paper-scissor/cover.png",
-    screenshots: ["../../src/projectsImage/rock-paper-scissor/cover.png"],
+    image: "/projects/rock-paper-scissor/cover.png",
+    screenshots: ["/projects/rock-paper-scissor/cover.png"],
     technologies: ["HTML", "CSS", "JavaScript"],
     features: [
       "Play against a computer opponent",
@@ -208,10 +208,10 @@ export const projects = [
       "A responsive image search application that allows users to find high-quality images instantly using the Unsplash API.",
     description:
       "An image search engine built with HTML, CSS, and JavaScript that integrates the Unsplash API to fetch and display high-quality images based on user search queries. The application features a clean and responsive interface, real-time image retrieval, and seamless browsing, providing an intuitive user experience for discovering and exploring images.",
-    image: "../../src/projectsImage/image-search-engine/cover.png",
+    image: "/projects/image-search-engine/cover.png",
     screenshots: [
-      "../../src/projectsImage/image-search-engine/screenshot1.png",
-      "../../src/projectsImage/image-search-engine/screenshot2.png",
+      "/projects/image-search-engine/screenshot1.png",
+      "/projects/image-search-engine/screenshot2.png",
     ],
     technologies: ["HTML", "CSS", "JavaScript", "Unsplash API"],
     features: [
