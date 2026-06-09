@@ -1,0 +1,237 @@
+export const projects = [
+  {
+    id: "ai-job-matcher",
+    title: "Ai Job Matcher",
+    shortDescription:
+      "An AI-powered job matching platform that analyzes resumes against job descriptions, calculates match scores, and provides personalized career improvement recommendations.",
+    description:
+      "An intelligent career assistance platform that uses AI to compare a user's resume with a job description and determine how well they match. The application generates a compatibility score, identifies skill gaps, suggests improvements, provides a personalized learning roadmap, and can automatically generate an optimized resume tailored to the target role. Designed to help job seekers improve their chances of landing interviews through data-driven insights and AI-powered recommendations.",
+    image: "../../src/projectsImage/ai-job-matcher/cover.png",
+    screenshots: [
+      "../../src/projectsImage/ai-job-matcher/screenshot1.png",
+      "../../src/projectsImage/ai-job-matcher/screenshot2.png",
+      "../../src/projectsImage/ai-job-matcher/screenshot3.png",
+    ],
+    technologies: [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Gemini API",
+      "Zustand",
+      "Tailwind CSS",
+      "Puppeteer",
+    ],
+    features: [
+      "Helps users align their profiles with target job requirements",
+      "AI-powered resume and job description analysis",
+      "Percentage-based job match scoring",
+      "Identification of skill gaps and missing qualifications",
+      "Personalized recommendations for resume improvement",
+      "Automated resume generation and optimization",
+      "Detailed insights into strengths and improvement areas",
+      "Instant analysis and feedback",
+    ],
+    liveUrl: "https://github.com/irshadjainul/Ai-Job-Matcher",
+    githubUrl: "https://github.com/irshadjainul/Ai-Job-Matcher",
+    featured: true,
+    category: "fullstack",
+  },
+  {
+    id: "pod-caster",
+    title: "Pod-Caster",
+    shortDescription:
+      "A full-stack podcast platform where users can create, manage, and listen to podcasts with category-based discovery and seamless audio streaming.",
+    description:
+      "A modern podcast streaming and management application built using the MERN stack, Zustand, and Tailwind CSS. Users can create accounts, upload and manage their podcasts, and explore content across different categories. The platform provides a smooth listening experience with online audio streaming, intuitive navigation, and a fully responsive design. Zustand is used for efficient state management, while Tailwind CSS ensures a clean and mobile-friendly user interface.",
+    image: "../../src/projectsImage/pod-caster/cover.png",
+    screenshots: [
+      "../../src/projectsImage/pod-caster/screenshot1.png",
+      "../../src/projectsImage/pod-caster/screenshot2.png",
+    ],
+    technologies: [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Zustand",
+      "Tailwind CSS",
+    ],
+    features: [
+      "User authentication and account management",
+      "Create and publish podcasts",
+      "Online podcast streaming and playback",
+      "Browse podcasts by category",
+      "Podcast organization and management dashboard",
+      "Fast and efficient state management with Zustand",
+      "Discover and explore podcast content easily",
+      "Modern and user-friendly interface",
+    ],
+    liveUrl: "https://podcaster-04.vercel.app/",
+    githubUrl: "https://github.com/irshadjainul/PodCaster",
+    featured: true,
+    category: "fullstack",
+  },
+  {
+    id: "ai-code-reviewer",
+    title: "Ai-Code-Reviewer",
+    shortDescription:
+      "An AI-powered code reviewer that analyzes source code and provides instant feedback, suggestions, and improvements using the Gemini API.",
+    description:
+      "An intelligent code review application built with React, Tailwind CSS, and Express.js that leverages the Gemini API to analyze code and generate detailed feedback. Users can submit code snippets and receive AI-powered suggestions on code quality, best practices, potential bugs, performance improvements, and readability enhancements. The application features a clean interface, fast processing, and real-time review generation, helping developers write better and more maintainable code.",
+    image: "../../src/projectsImage/ai-code-reviewer/cover.png",
+    screenshots: [
+      "../../src/projectsImage/ai-code-reviewer/screenshot1.png",
+      "../../src/projectsImage/ai-code-reviewer/screenshot2.png",
+      "../../src/projectsImage/ai-code-reviewer/screenshot3.png",
+    ],
+    technologies: ["React.js", "Tailwind CSS", "Express.js", "Gemini API"],
+    features: [
+      "AI-powered code analysis using the Gemini API",
+      "Review and analyze code snippets instantly",
+      "Detect potential errors and code quality issues",
+      "Generate suggestions for optimization and best practices",
+      "Real-time review generation and feedback display",
+      "Express.js backend for API handling and processing",
+      "Modern UI built with React and Tailwind CSS",
+    ],
+    liveUrl: "https://ai-code-reviewer-04.vercel.app/",
+    githubUrl: "https://github.com/irshadjainul/AI-Code-Reviewer",
+    featured: true,
+    category: "fullstack",
+  },
+  {
+    id: "portfolio",
+    title: "Portfolio",
+    shortDescription:
+      "A personal portfolio website that showcases my projects, skills, experience, and journey as a full-stack developer.",
+    description:
+      "A modern and responsive portfolio website designed to highlight my technical skills, projects, and professional background. Built with a focus on performance and user experience, the portfolio provides visitors with an overview of my work, featured projects, technologies, and contact information. It serves as a central hub to demonstrate my development expertise and creative problem-solving abilities.",
+    image: "../../src/projectsImage/portfolio/cover.png",
+    screenshots: [
+      "../../src/projectsImage/portfolio/screenshot1.png",
+      "../../src/projectsImage/portfolio/screenshot2.png",
+    ],
+    technologies: ["React", "Tailwind CSS", "Email.js", "Vite"],
+    features: [
+      "Professional introduction and developer profile",
+      "Showcase of featured and completed projects",
+      "Detailed project descriptions and live demo links",
+      "Smooth animations and interactive user experience",
+      "Links to GitHub, LinkedIn, and other professional profiles",
+      "Clean and visually appealing interface",
+    ],
+    liveUrl: "https://irshadjainul.vercel.app",
+    githubUrl: "https://github.com/irshadjainul/My-Portfolio",
+    featured: true,
+    category: "frontend",
+  },
+  {
+    id: "dice-game",
+    title: "Dice-Game",
+    shortDescription:
+      "A React-based dice guessing game where players earn or lose points by predicting dice rolls.",
+    description:
+      "An interactive dice game where players choose a number from 1 to 6 and roll the dice to test their luck. Built with React, Tailwind CSS, and Zustand, it features real-time score tracking, responsive design, and efficient state management.",
+    image: "../../src/projectsImage/dice-game/cover.png",
+    screenshots: [
+      "../../src/projectsImage/dice-game/screenshot1.png",
+      "../../src/projectsImage/dice-game/screenshot2.png",
+    ],
+    technologies: ["React", "Tailwind CSS", "zustand", "JavaScript", "Vite"],
+    features: [
+      "Real-time dice rolling with randomized outcomes",
+      "Clean and interactive user interface",
+      "Game controls including Roll, Hold, and Restart",
+      "Instant UI updates using JavaScript DOM manipulation",
+      "Automatic game state management and score calculation",
+    ],
+    liveUrl: "https://dice-game-04.vercel.app",
+    githubUrl: "https://github.com/irshadjainul/Dice-Game",
+    featured: true,
+    category: "frontend",
+  },
+  {
+    id: "real-estate",
+    title: "Real-Estate",
+    shortDescription:
+      "A modern real estate landing page built with React and Tailwind CSS, featuring property showcases and a contact form powered by Web3Forms.",
+    description:
+      "A responsive real estate landing page designed to showcase properties, highlight services, and generate leads. Built with React and Tailwind CSS, it offers a modern user interface, smooth navigation, and an engaging user experience. The contact form is integrated with Web3Forms, enabling visitors to send inquiries directly without requiring a custom backend.",
+    image: "../../src/projectsImage/real-estate/cover.png",
+    screenshots: [
+      "../../src/projectsImage/real-estate/screenshot1.png",
+      "../../src/projectsImage/real-estate/screenshot2.png",
+      "../../src/projectsImage/real-estate/screenshot3.png",
+    ],
+    technologies: ["React", "Tailwind CSS", "Zustand", "Web3forms"],
+    features: [
+      "Modern and responsive real estate landing page",
+      "Property showcase and featured listings sections",
+      "Smooth scrolling and interactive UI elements",
+      "Contact form integration using Web3Forms",
+      "Fast and optimized performance with React",
+      "Lead generation through direct inquiry submissions",
+    ],
+    liveUrl: "https://real-estate-04.vercel.app/",
+    githubUrl: "https://github.com/irshadjainul/Real-Estate",
+    featured: true,
+    category: "frontend",
+  },
+  {
+    id: "rock-paper-scissor",
+    title: "Rock-Paper-Scissor",
+    shortDescription:
+      "A classic Rock Paper Scissors game where users compete against the computer, with real-time score tracking and instant game results.",
+    description:
+      "An interactive Rock Paper Scissors game built with HTML, CSS, and JavaScript. Players choose between rock, paper, or scissors, while the computer generates a random choice. The game automatically determines the winner, updates scores in real time, and displays the result after each round. It provides a fun and engaging experience while demonstrating core JavaScript concepts such as event handling, conditional logic, random number generation, and DOM manipulation.",
+    image: "../../src/projectsImage/rock-paper-scissor/cover.png",
+    screenshots: ["../../src/projectsImage/rock-paper-scissor/cover.png"],
+    technologies: ["HTML", "CSS", "JavaScript"],
+    features: [
+      "Play against a computer opponent",
+      "Random computer move generation",
+      "Automatic winner determination",
+      "Real-time score tracking for both player and computer",
+      "Continuous gameplay without page reloads",
+      "Clean and interactive user interface",
+    ],
+    liveUrl: "https://rock-paper-scissor-04.vercel.app",
+    githubUrl: "https://github.com/irshadjainul/Rock-Paper-Scissor",
+    featured: true,
+    category: "frontend",
+  },
+  {
+    id: "image-search-engine",
+    title: "Image-Search-Engine",
+    shortDescription:
+      "A responsive image search application that allows users to find high-quality images instantly using the Unsplash API.",
+    description:
+      "An image search engine built with HTML, CSS, and JavaScript that integrates the Unsplash API to fetch and display high-quality images based on user search queries. The application features a clean and responsive interface, real-time image retrieval, and seamless browsing, providing an intuitive user experience for discovering and exploring images.",
+    image: "../../src/projectsImage/image-search-engine/cover.png",
+    screenshots: [
+      "../../src/projectsImage/image-search-engine/screenshot1.png",
+      "../../src/projectsImage/image-search-engine/screenshot2.png",
+    ],
+    technologies: ["HTML", "CSS", "JavaScript", "Unsplash API"],
+    features: [
+      "Search images using keywords and phrases",
+      "etch high-quality images from the Unsplash API",
+      "Game controls including Roll, Hold, and RestartReal-time search results with fast API integration",
+      "Load more functionality for additional results",
+      "Clean and user-friendly interface",
+      "Built with vanilla HTML, CSS, and JavaScript without external frameworks",
+    ],
+    liveUrl: "https://image-search-engine-04.vercel.app",
+    githubUrl: "https://github.com/irshadjainul/Image-Search-Engine",
+    featured: true,
+    category: "frontend",
+  },
+];
+
+export const categories = [
+  { id: "all", label: "All Projects" },
+  { id: "fullstack", label: "Full Stack" },
+  { id: "frontend", label: "Frontend" },
+  { id: "mobile", label: "Mobile" },
+];
